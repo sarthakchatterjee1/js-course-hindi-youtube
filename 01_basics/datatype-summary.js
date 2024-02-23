@@ -40,3 +40,28 @@ const myFunction = function(){
     console.log("Hello Eorld")
 }
 */
+/* *******Memomory*****
+Memory is two types 1) Stack Memory and 2)Heap memory
+1) Stack Memory: It is premetive type
+In stack memory we get a copy of a declear variable
+
+2) Heap Memory: It is non-premetive type or refference type.
+In Heap memeory we get a refference or address of a variable 
+*/
+let myEmail = "Sarthakchaterjee1@gmail.com"
+let anotherEmail = myEmail
+anotherEmail = "sarthakchatterjee2@gmail.com"
+console.log(anotherEmail);
+console.log(myEmail);
+
+let userone = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userone
+
+userTwo.email = "abc@gmail.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
