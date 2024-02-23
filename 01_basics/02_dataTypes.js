@@ -18,7 +18,21 @@ object
 */
 
 
-console.log(typeof "Sarthak") 
+console.log(typeof "Sarthak") // ans string
 console.log(typeof null) // ans: Object
 console.log(typeof undefined) // ans: Undfined
 // Type of null is 'Object'(Importent question for interview)
+
+const BigNumber = 75748976757567485n
+//Data type of Bigint is bigint
+console.log(typeof BigNumber);
+
+const heros = ["Ram", "Sita", "Hanuman"]
+// point to note data type of array is object
+console.log(typeof heros)
+
+const myFunction = function(){
+    console.log("Hello Eorld")
+}
+// data type of funcion is function
+console.log(typeof myFunction)
