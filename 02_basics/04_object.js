@@ -54,3 +54,19 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogggedIn')); // It will find if any kind of property is present in the objet or not
 
+// Object de-structure
+const course = {
+    courseName: "JS in hindi",
+    price: "999",
+    coursrInstructor: "Hitesh Sir"
+}
+
+//There waysto find the value of a key
+
+console.log(course.coursrInstructor);
+
+const {coursrInstructor} = course
+console.log(coursrInstructor);
+
+const {coursrInstructor: Instructor} = course
+console.log(Instructor);
